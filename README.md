@@ -1,4 +1,4 @@
-# KnowMatrix AI (`enterprise-rag-assistant`)
+# KnowMatrix AI (`knowmatrix-ai`)
 
 > **Enterprise document intelligence and RAG** platform with hybrid semantic + BM25 search, page-level source citations, access control, streaming responses, and RAG evaluation.
 
@@ -35,7 +35,7 @@ This project transforms [upppy/rag-ai-assistant](https://github.com/upppy/rag-ai
 
 ## 5. Architecture & Folder Structure
 ```text
-enterprise-rag-assistant/
+knowmatrix-ai/
 ├── .env.example
 ├── docker-compose.yml
 ├── README.md
@@ -66,10 +66,10 @@ cp .env.example .env
 
 ## 7. How to Run Locally
 ```bash
-# Backend (from enterprise-rag-assistant/backend)
+# Backend (from knowmatrix-ai/backend)
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 
-# Frontend (from enterprise-rag-assistant/frontend)
+# Frontend (from knowmatrix-ai/frontend)
 npm install
 npm run dev
 ```
